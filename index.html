@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Language" content="zh-Hant,en" />
+  <title>SPCC 110th Anniversary Celebrations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&family=Noto+Serif+HK:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" type="image/png" href="assets/branding/logo-square-red.png" />
+  <link rel="shortcut icon" href="assets/branding/logo-square-red.png" />
+  <link rel="apple-touch-icon" href="assets/branding/logo-square-red.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-one" aria-hidden="true"></div>
+  <div class="bg-orb orb-two" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="nav-backdrop" aria-hidden="true"></div>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Go to home page">
+        <img
+          class="brand-logo"
+          src="assets/branding/logo-wide.png"
+          alt="SPCC 110th Anniversary logo"
+        />
+      </a>
+      <button
+        type="button"
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open menu"
+      >
+        <span class="nav-toggle-bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+      <nav id="site-nav" class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <div class="nav-dropdown">
+          <button
+            type="button"
+            class="nav-dropdown-trigger"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="events-submenu"
+          >
+            Events
+          </button>
+          <ul id="events-submenu" class="nav-dropdown-menu" role="list">
+            <li><a href="openday.html">Open Day</a></li>
+            <li><a href="leadershipforum-sports.html">Leadership Forum &mdash; Sports</a></li>
+            <li><a href="leadershipforum-music.html">Leadership Forum &mdash; Music</a></li>
+            <li><span class="nav-dropdown-note">Anniversary Homecoming Concert (coming soon)</span></li>
+            
+          </ul>
+        </div>
+        <a href="gallery/index.html">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal is-visible">
+      <div class="overlay"></div>
+      <div class="container hero-content">
+        <img
+          class="hero-mark"
+          src="assets/branding/logo-square-red.png"
+          alt="SPCC 110th Anniversary"
+          width="3334"
+          height="2638"
+        />
+        <p class="hero-kicker">Celebrating Legacy, Inspiring the Future</p>
+        <h2>Embrace Love:<br />A Quest for Compassion</h2>
+        <p>
+          Join us as we celebrate 110 years of learning, service, and community
+          spirit at St. Paul&rsquo;s Co-educational College.
+        </p>
+      </div>
+    </section>
+
+    <section id="welcome" class="container section reveal">
+      <div class="section-title">
+        <img
+          class="section-title-icon"
+          src="assets/branding/logo-square-red.png"
+          alt=""
+          width="64"
+          height="51"
+          decoding="async"
+        />
+        <h3>Welcome</h3>
+      </div>
+      <article class="card welcome-card">
+        <p>
+          In the spirit of Faith, Hope, and Love, we gather to celebrate our
+          journey&mdash;110 years of excellence, resilience, and a steadfast
+          commitment to the values that define us. These virtues have not only
+          guided our path but have inspired our community to thrive and achieve
+          extraordinary new milestones.
+        </p>
+        <p>
+          Our anniversary theme,
+          <strong lang="zh-Hant">&ldquo;Embrace Love: A Quest for Compassion 愛己、愛人、愛世界&rdquo;</strong>,
+          encapsulates our collective mission. It calls upon us to recognize the
+          profound power of love&mdash;not as an
+          abstract ideal but as a transformative force. Love compels us to lead
+          with empathy, to serve with humility, and to forge a community rooted
+          in kindness and inclusivity.
+        </p>
+        <p>
+          As we reflect on this remarkable 110-year journey, we honor the past
+          with gratitude, celebrate the present with purpose, and envision a
+          future shaped by hope and compassion. This is a time to reaffirm our
+          commitment to the values that unite us, to seek greater meaning in
+          our shared endeavors, and to extend our impact beyond the SPCC
+          family, contributing to a better and more harmonious world.
+        </p>
+        <p>
+          With Faith, Hope, and Love as our foundation and compassion as our
+          guide, we stand poised to shape a legacy that is enduring, inclusive,
+          and radiant with promise. Together, let us write the next chapter of
+          our story, guided by the shared belief in the boundless potential of
+          our community.
+        </p>
+      </article>
+    </section>
+
+    <section class="container section reveal" id="theme-song">
+      <div class="card video-card">
+        <div class="video-wrapper">
+          <video
+            autoplay
+            muted
+            controls
+            playsinline
+            preload="metadata"
+            title="SPCC 110th Anniversary Theme Song"
+          >
+            <source
+              src="assets/Embrace%20love%20website%20final.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="events-preview" class="container section reveal">
+      <div class="section-title">
+        <img
+          class="section-title-icon"
+          src="assets/branding/logo-square-red.png"
+          alt=""
+          width="64"
+          height="51"
+          decoding="async"
+        />
+        <h3>Events</h3>
+      </div>
+      <article class="card">
+        <h4 class="events-range">2025-2027</h4>
+        <ol class="timeline events-timeline">
+          <li class="timeline-item">
+            <div class="timeline-date">11 &amp; 12 October, 2025</div>
+            <div class="timeline-content card">
+              <h4>Open Days cum Opening Ceremony</h4>
+              <p>St. Paul's Co-educational College<br />33 MacDonnell Road, Hong Kong</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">14 November, 2025</div>
+            <div class="timeline-content card">
+              <h4>Thanksgiving Service</h4>
+              <p>St. John's Cathedral</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">7 &amp; 8 February, 2026</div>
+            <div class="timeline-content card">
+              <h4>Open Days</h4>
+              <p>
+                St. Paul's Co-educational College Primary School<br />11 Nam Fung Path, Wong Chuk Hang,
+                Hong Kong
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">17 March, 2026</div>
+            <div class="timeline-content card">
+              <h4>Leadership Forum - Sports</h4>
+              <p>St. Paul's Co-educational College<br />33 MacDonnell Road, Hong Kong</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">24 June, 2026</div>
+            <div class="timeline-content card">
+              <h4>Leadership Forum - Music</h4>
+              <p>St. Paul's Co-educational College<br />33 MacDonnell Road, Hong Kong</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">8 July, 2026</div>
+            <div class="timeline-content card">
+              <h4>Anniversary Homecoming Concert</h4>
+              <p>
+                Sir Robert Kotewall Hall, St. Paul's Co-educational College<br />33 MacDonnell Road,
+                Hong Kong
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">5 December, 2026</div>
+            <div class="timeline-content card">
+              <h4>Anniversary Homecoming Day</h4>
+              <p>St. Paul's Co-educational College<br />33 MacDonnell Road, Hong Kong</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-date">20 March, 2027</div>
+            <div class="timeline-content card">
+              <h4>Anniversary Gala Dinner</h4>
+              <p>Hong Kong Convention and Exhibition Centre</p>
+            </div>
+          </li>
+        </ol>
+      </article>
+    </section>
+
+    <section id="contact" class="section section-contact reveal" aria-label="Contact">
+      <div class="section-contact__panel">
+        <div class="contact-split">
+          <div class="contact-split__brand">
+            <img
+              class="contact-official-logo"
+              src="assets/branding/logo-footer-spcc.png"
+              alt="St. Paul&rsquo;s Co-educational College &mdash; official emblem and name"
+              width="890"
+              height="340"
+            />
+          </div>
+          <div class="contact-split__info">
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                </span>
+                <span>33 MacDonnell Road</span>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </span>
+                <a href="mailto:spcc110@spcc.edu.hk">spcc110@spcc.edu.hk</a>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                </span>
+                <a href="https://spcc.edu.hk" target="_blank" rel="noopener noreferrer">spcc.edu.hk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img
+        class="footer-logo"
+        src="assets/branding/logo-wide.png"
+        alt="SPCC 110th Anniversary logo"
+      />
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
