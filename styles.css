@@ -38,7 +38,7 @@ body {
   color: var(--text);
   background-color: var(--bg);
   background-image: linear-gradient(rgba(244, 248, 255, 0.46), rgba(244, 248, 255, 0.52)),
-    url("assets/branding/theme-bg-blue.png");
+    url("/assets/branding/theme-bg-blue.png");
   background-repeat: no-repeat, repeat;
   background-size: auto, 560px auto;
   background-attachment: scroll, scroll;
@@ -478,8 +478,14 @@ body.nav-open {
     box-sizing: border-box;
     margin: 0;
     padding: 1rem 0.85rem;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+  }
+
+  .nav-dropdown-trigger::before {
+    order: 2;
+    margin-left: auto;
+    margin-top: 0;
   }
 
   .nav-dropdown-menu {
@@ -531,7 +537,7 @@ body.nav-open {
       rgba(0, 52, 92, 0.38) 42%,
       rgba(28, 48, 72, 0.62) 100%
     ),
-    url("assets/branding/hero-campus.png") center / cover;
+    url("/assets/branding/hero-campus.png") center / cover;
   color: #fff;
   border-bottom: 1px solid var(--line);
   min-height: 56.25vw;
